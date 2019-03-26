@@ -1,0 +1,68 @@
+img.center {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+div.intro{
+	text-align: center;
+}
+
+img.center-half{
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 75vw;
+
+}
+
+div.question{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75vw;
+	padding: 0;
+}
+
+a.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+input.q1{
+	display: block;
+	position: absolute;
+	top: 20.1%;
+	left: 29.5%;
+	width: 65.6%;
+}
+input.q2{
+	display: block;
+	position: absolute;
+	top: 37.5%;
+	left: 29.4%;
+	width: 65.73%;
+
+}
+input.q3{
+	display: block;
+	position: absolute;
+	top: 55.5%;
+	left: 28%;
+	width: 67.333%;
+
+}
+input.q4{
+	display: block;
+	position: absolute;
+	top: 72.5%;
+	left: 27.75%;
+	width: 68.666%;
+
+}
+
+h2{
+
+	text-align: center;
+}
