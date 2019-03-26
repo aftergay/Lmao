@@ -12,12 +12,12 @@ $name = substr($fld,2);
 </head>
 <body>
 	<div class="question"> 
-		<img class="center-half" src="/intro/<?php echo $fld;?>/question.jpg"/>
+		<img class="center-half" src="/<?php echo $fld;?>/question.jpg"/>
 		<form action="checkans.php" method="POST">
-			<input class="q1" name="<?php echo $name?>_A" type="image" src="/intro/<?php echo $fld;?>/q0.jpg"/>
-			<input class="q2" name="<?php echo $name?>_B" type="image" src="/intro/<?php echo $fld;?>/q1.jpg"/>
-			<input class="q3" name="<?php echo $name?>_C" type="image" src="/intro/<?php echo $fld;?>/q2.jpg"/>
-			<input class="q4" name="<?php echo $name?>_D" type="image" src="/intro/<?php echo $fld;?>/q3.jpg"/>
+			<input class="q1" name="<?php echo $name?>_A" type="image" src="/<?php echo $fld;?>/q0.jpg"/>
+			<input class="q2" name="<?php echo $name?>_B" type="image" src="/<?php echo $fld;?>/q1.jpg"/>
+			<input class="q3" name="<?php echo $name?>_C" type="image" src="/<?php echo $fld;?>/q2.jpg"/>
+			<input class="q4" name="<?php echo $name?>_D" type="image" src="/<?php echo $fld;?>/q3.jpg"/>
 		</form>
 
 	</div>
